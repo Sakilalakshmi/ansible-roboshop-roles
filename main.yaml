@@ -1,4 +1,4 @@
-- nmae: installing roboshop project
+- name: installing roboshop project
   hosts: mongodb
   become: yes
   roles:

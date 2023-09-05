@@ -9,4 +9,4 @@
     state: installed
 
 - name: Load values to mongodb
-  ansible.builtin.shell: mongo --host mongodb.learningdevops.shop < /app/schema/{{component}}.js
+  ansible.builtin.shell: "mongo --host mongodb.learningdevops.shop < /app/schema/{{component}}.js"
